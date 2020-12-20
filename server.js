@@ -32,7 +32,7 @@ app.get('/', function (req, res) {
 
     //? le estamos dicendo renderiza esta pagina, que es el hbs que habiamos creado ace un momento
     res.render('home.hbs', {
-        nombre: 'adrian ferranNdis'
+        nombre: 'adrian ferraNdis'
     })
 })
 
